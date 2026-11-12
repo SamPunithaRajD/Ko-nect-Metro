@@ -1,243 +1,240 @@
-# KO-NECT Metro Operations Control System
+# 🚆 KO-NECT | Unified Metro & Water Metro Operations Control System
 
-A comprehensive AI-powered metro operations control system for managing both metro trains and water metro boats in Kochi, Kerala. Built with React, TypeScript, Tailwind CSS, and Supabase.
+<div align="center">
 
-## Overview
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=25&duration=3000&pause=1000&color=00A6FF&center=true&vCenter=true&width=850&lines=Smarter+Urban+Mobility.;AI-Powered+Operational+Planning.;One+Unified+Control+System.;Connecting+Metro+%26+Water+Metro." alt="Animated KO-NECT introduction" />
 
-KO-NECT (Kochi Operations - Network and Control Technology) is a professional-grade operations management system designed for the Kochi Metro Rail Limited (KMRL) to manage both their metro train and water metro fleets. The system features AI-powered operational planning, real-time fleet monitoring, certificate tracking, ridership analytics, and comprehensive reporting capabilities.
+### Connecting Operations. Optimizing Mobility. Empowering Decisions.
 
-## Features
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![AI Powered](https://img.shields.io/badge/AI-Decision_Support-00A86B?style=for-the-badge)](#-ai-powered-operational-planning)
+[![Language](https://img.shields.io/badge/Language-English%20%7C%20Malayalam-blue?style=for-the-badge)](#-multilingual-experience)
 
-### Admin Dashboard
-- **Fleet Overview**: Real-time monitoring of 100 vehicles (25 metro trains + 75 water boats)
-- **AI Operational Planning**: Generate AI-powered operational plans with 92%+ confidence
-- **Manual Override**: Full admin control to edit and override AI suggestions
-- **Fleet Management**: Complete vehicle status tracking and management
-- **Issue Inbox**: View and acknowledge employee-reported issues with photos
-- **Reports & Analytics**: Comprehensive operational reports and analytics
-- **History**: 30 days of downloadable operational history
-- **Route Maps**: Interactive metro and water route visualization
+**A unified operational decision-support platform inspired by Kochi Metro Rail and Kochi Water Metro operations.**
 
-### Employee Dashboard (Metro & Water)
-- **Personal Fleet View**: Assigned vehicles dashboard by type
-- **Status Updates**: Update vehicle status in real-time
-- **Issue Reporting**: Report issues with photo attachment support
-- **Operational Plans**: View and execute approved admin plans
-- **History**: 7 days of downloadable operational history
-- **Route Maps**: Relevant route maps for metro or water operations
+</div>
 
-### AI Features
-- **Demand Prediction**: Analyze ridership data for demand forecasting
-- **Maintenance Scheduling**: Proactive maintenance recommendations
-- **Operational Optimization**: Smart vehicle deployment suggestions
-- **Certificate Monitoring**: Alert system for expiring certificates
+---
 
-## Fleet Composition
+## 🌆 About KO-NECT
 
-### Metro Trains (25 Real Kochi Metro Names)
-KRISHNA, TAPTI, NILA, SARAYU, ARUTH, VAIGAI, JHANAVI, DHWANIL, BHAVANI, PADMA, MANDAKINI, YAMUNA, PERIYAR, KABANI, VAAYU, KAVERI, SHIRIYA, PAMPA, NARMADA, MAHE, MAARUT, SABARMATHI, GODHAVARI, GANGA, PAVAN
+Urban transportation involves thousands of interconnected decisions involving fleet availability, employee allocation, maintenance, passenger demand, and unexpected events.
 
-### Water Metro Boats (75 Vessels)
-WMB-001 through WMB-075, named after various Kochi locations and landmarks
+**KO-NECT** is designed to bring these operational activities together into one intelligent platform.
 
-## Tech Stack
+It combines AI-assisted operational planning, fleet management, workforce allocation, maintenance coordination, and analytical reporting to support smarter decision-making across metro rail and water metro operations.
 
-- **Frontend**: React 18 with TypeScript
-- **Styling**: Tailwind CSS with KMRL official color theme
-- **Icons**: Lucide React
-- **Database**: Supabase (PostgreSQL)
-- **Authentication**: Custom demo authentication with Supabase database
-- **Build Tool**: Vite
+Rather than managing two transportation networks independently, KO-NECT provides a unified operational perspective.
 
-## Installation
+## ✨ Core Capabilities
 
-```bash
-# Install dependencies
-npm install
+| Module | Capabilities |
+|---|---|
+| 🚆 Metro Operations | Train induction, fleet status and deployment |
+| 🚤 Water Metro Operations | Boat allocation, availability and scheduling |
+| 🤖 AI Planning | Constraint-based operational recommendations |
+| 👨‍✈️ Workforce Management | Driver allocation, shifts and fatigue monitoring |
+| 🗓️ Event Intelligence | Event-aware scheduling and extended services |
+| 🔧 Maintenance Management | Department assignments and repair workflows |
+| 📸 Repair Evidence | Before/after photos and repair documentation |
+| 📚 Repair History | Centralized maintenance audit records |
+| 📊 Analytics | Ridership, fleet utilization and operational KPIs |
+| 📄 Reporting | Downloadable PDF and Excel reports |
+| 🏢 Depot Simulation | Fleet failure and maintenance capacity scenarios |
+| 🌐 Multilingual | English and Malayalam |
+| 🌙 Dark Mode | Alternative operational dashboard theme |
 
-# Start development server
-npm run dev
+## 🧠 AI-Powered Operational Planning
 
-# Build for production
-npm run build
+KO-NECT uses a constraint-based decision-support approach inspired by Operations Research principles.
+
+The planning engine considers multiple operational factors before generating recommendations.
+
+**Planning Inputs**
+- Historical passenger ridership
+- Train and boat availability
+- Maintenance schedules
+- Driver and crew availability
+- License and certificate validity
+- Weekday, weekend and holiday demand
+- Special events and expected crowd
+
+**Planning Outputs**
+- Recommended fleet deployment
+- Driver and crew allocation
+- Standby fleet requirements
+- Maintenance constraints
+- Event-based operational adjustments
+- Extended service recommendations
+
+The system also supports administrator overrides and dynamic manpower recalculation.
+
+## 🔄 Operational Workflow
+
+```mermaid
+flowchart TD
+    A["📥 Operational Data"] --> B["Fleet & Driver Validation"]
+    B --> C["🤖 AI Planning Engine"]
+    C --> D["📊 Recommended Operational Plan"]
+    D --> E{"Admin Approval"}
+    E -->|Modify| F["Admin Override"]
+    F --> G["Dynamic Fleet & Driver Reallocation"]
+    E -->|Approve| H["Approved Operational Plan"]
+    G --> H
+    H --> I["Employee Dashboards"]
+    H --> J["Depot Simulation"]
+    I --> K["Operational Execution"]
+    K --> L["Issue Reporting"]
+    L --> M["Maintenance Manager"]
+    M --> N["Department Assignment"]
+    N --> O["Repair & Photo Evidence"]
+    O --> P["Admin Verification"]
+    P --> Q["Repair History & Analytics"]
 ```
 
-## Demo Accounts
+## 🔧 Maintenance Management System
 
-The system comes with three pre-configured demo accounts:
+A dedicated Maintenance Manager role coordinates maintenance activities across departments.
 
-### Admin Account
-- Email: `admin@konect.com`
-- Password: `admin123`
-- Access: Full system access, AI planning, fleet management, issue inbox, reports
+**Department Coordination**
+- Mechanical
+- Electrical
+- Civil Works
+- IT / Signalling
+- Safety
+- Housekeeping
+- Metro Technical
+- Water Metro Technical
 
-### Metro Employee Account
-- Email: `metro@konect.com`
-- Password: `metro123`
-- Access: 25 metro trains, status updates, issue reporting, history
+**Issue Lifecycle**
 
-### Water Employee Account
-- Email: `water@konect.com`
-- Password: `water123`
-- Access: 75 water boats, status updates, issue reporting, history
+`Reported → Assigned → Accepted → In Progress → Testing → Resolved → Verified → Closed`
 
-## Demo Data
+Every completed repair can include:
+- Repair description and technician details
+- Spare parts consumed
+- Before and after photographs
+- Testing results
+- Admin verification
+- Permanent repair history
 
-The system comes pre-populated with realistic demo data:
+## 📊 Operational Intelligence
 
-- **100 Vehicles**: Mixed operational statuses (service, maintenance, cleaning, standby, ready)
-- **400 Certificates**: Safety, fitness, pollution, and insurance certificates with expiry tracking
-- **390+ Ridership Records**: Last 3 days of passenger and revenue data
-- **39+ Plan History**: 30 days of operational history
-- **21+ AI Reports**: 14 days of AI-generated insights
-- **Issues**: Sample issues with descriptions
+KO-NECT brings operational analytics into one place.
 
-## KMRL Official Color Theme
+- Daily passenger ridership trends
+- Metro and Water Metro fleet utilization
+- Driver availability and shift distribution
+- Maintenance and repair trends
+- Certificate expiry monitoring
+- Department performance
+- Event-based operational impact
 
-The system uses the official KMRL color scheme:
+Administrators can generate and download structured operational reports in PDF and Excel formats.
 
-- **Primary Red**: #E31E24 (buttons, alerts, highlights)
-- **Dark Red**: #B71C1C (hover states, emphasis)
-- **Metro Blue**: #003A8F (sidebar, headers, navigation)
-- **Light Blue**: #0072CE (links, secondary elements)
-- **Status Colors**:
-  - Green #28A745 (service, ready)
-  - Red #E31E24 (maintenance, critical)
-  - Yellow #FFC107 (cleaning, warnings)
-  - Blue #0072CE (standby)
+## 🛠️ Technology Stack
 
-## AI Operational Planning Workflow
+| Technology | Purpose |
+|---|---|
+| React.js | Component-based frontend |
+| Vite | Development and build tooling |
+| Tailwind CSS | UI styling and responsive layouts |
+| JavaScript / TypeScript | Application logic |
+| React Context API | Shared application state |
+| Charting Libraries | Analytics and data visualization |
+| Excel / JSON | Structured operational input data |
+| PDF / Excel Libraries | Report generation |
 
-1. **Admin Generates AI Plan**: Click "Generate AI Plan" to analyze fleet status
-2. **AI Analysis**: System analyzes 100 vehicles, maintenance schedules, certificates, ridership
-3. **Smart Recommendations**: AI suggests optimal vehicle assignments
-4. **Manual Override**: Admin can edit any suggestion
-5. **Plan Approval**: Admin approves and sends plan to employees
-6. **Employee Execution**: Employees receive and execute assignments
-7. **History Tracking**: All plans saved to operational history
+*The implementation should be updated to reflect the exact libraries and integrations in the current repository.*
 
-## Issue Reporting System
+## 🌐 Multilingual Experience
 
-1. **Employee Reports Issue**: Describe problem, attach photo (optional)
-2. **Issue Submission**: Saved to database with timestamp
-3. **Admin Views**: Issue appears in admin inbox
-4. **Admin Acknowledges**: Mark as acknowledged or resolved
-5. **No Reply Feature**: One-way communication as specified
+KO-NECT supports two languages:
 
-## Database Schema
+- 🇬🇧 English
+- 🇮🇳 മലയാളം (Malayalam)
 
-### Key Tables
-- `users`: Admin and employee accounts
-- `vehicles`: 100 vehicles with status tracking
-- `certificates`: Vehicle certificates with expiry dates
-- `ridership_data`: Passenger and revenue data
-- `operational_plans`: AI-generated and approved plans
-- `plan_history`: Historical operational records
-- `ai_reports`: AI analysis and insights
-- `issues`: Employee-reported issues
-- `vehicle_updates`: Status change tracking
+The language preference extends across dashboards, operational data, event notices, schedules, alerts and downloadable reports.
 
-## Project Structure
+## 👥 Role-Based Dashboards
 
-```
-/src
-  /components
-    /admin              # Admin dashboard components
-      AdminDashboard.tsx
-      AIPlanning.tsx
-      FleetManagement.tsx
-      IssueInbox.tsx
-      Reports.tsx
-      History.tsx
-      RouteMap.tsx
-    /employee           # Employee dashboard components
-      EmployeeDashboard.tsx
-      UpdateStatus.tsx
-      ReportIssue.tsx
-      EmployeeHistory.tsx
-      EmployeeRouteMap.tsx
-    LoginPage.tsx       # Authentication
-    Sidebar.tsx         # Navigation
-    Notification.tsx    # Toast notifications
-  /contexts
-    AuthContext.tsx     # Authentication state management
-  /lib
-    supabase.ts        # Supabase client and types
-    colors.ts          # KMRL color theme
-  App.tsx              # Main application
-  main.tsx             # Entry point
-```
+**1. Admin – Operations Control Center**
+- Central operational monitoring
+- AI planning and approval
+- Fleet and driver management
+- Event scheduling
+- Maintenance oversight
+- Analytics and reporting
 
-## Environment Variables
+**2. Metro Employee**
+- Train assignments
+- Shift schedules
+- Operational instructions
+- Special event notices
+- Issue reporting
 
-The `.env` file contains Supabase configuration:
+**3. Water Metro Employee**
+- Boat assignments
+- Captain and crew schedules
+- Operational instructions
+- Event-based service updates
+- Issue reporting
 
-```
-VITE_SUPABASE_URL=your-project-url
-VITE_SUPABASE_ANON_KEY=your-anon-key
-```
+**4. Maintenance Manager**
+- Department coordination
+- Repair work queue
+- Maintenance status updates
+- Repair evidence uploads
+- Repair history and reports
 
-These are pre-configured for the demo environment.
+## 🎯 Project Objectives
 
-## Build & Deployment
+- Reduce manual operational planning effort.
+- Improve fleet and workforce utilization.
+- Coordinate metro and water metro operations.
+- Incorporate special events into service planning.
+- Improve maintenance traceability.
+- Support transparent, data-driven decisions.
 
-```bash
-# Type check
-npm run typecheck
+## 🚀 Future Scope
 
-# Lint code
-npm run lint
+- Real-time IoT integration with metro and boat systems.
+- Live GPS-based fleet monitoring.
+- Predictive maintenance using historical operational data.
+- Machine learning-based passenger demand forecasting.
+- Integration with enterprise maintenance management systems.
+- Automated operational data ingestion through APIs.
 
-# Build for production
-npm run build
+## 🏆 Achievement
 
-# Preview production build
-npm run preview
-```
+🥈 **Second Prize – TECHYUGAM '26**
 
-## Development Notes
+Inter-College Project Expo  
+Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College
 
-- All data persists in Supabase database
-- Row Level Security (RLS) enabled on all tables
-- Real-time updates using Supabase queries
-- Responsive design for mobile, tablet, and desktop
-- Professional government control room appearance
+## 👨‍💻 Project Team
 
-## Hackathon Demo Flow
+### METRO BOYS
 
-1. **Login as Admin** (`admin@konect.com` / `admin123`)
-   - View fleet dashboard with 100 vehicles
-   - Check certificate alerts
-   - Review ridership analytics
+| Team Member |
+|---|
+| Sam Punitha Raj D |
+| Vishnu Vardan E |
+| Srivarsan JP |
+| Vidur Varshan V |
 
-2. **Generate AI Plan**
-   - Navigate to AI Planning tab
-   - Click "Generate AI Plan"
-   - Review AI suggestions for all vehicles
-   - Edit any assignments manually
-   - Approve and send to employees
+**St. Joseph's College of Engineering, Chennai**
 
-3. **Login as Metro Employee** (`metro@konect.com` / `metro123`)
-   - View 25 assigned metro trains
-   - See operational plan from admin
-   - Update vehicle statuses
-   - Report an issue with photo
+---
 
-4. **Login as Water Employee** (`water@konect.com` / `water123`)
-   - View 75 assigned water boats
-   - Check vessel statuses
-   - Update statuses as needed
+<div align="center">
 
-5. **Back to Admin**
-   - View reported issues in Issue Inbox
-   - Acknowledge issues
-   - Download operational history (30 days)
-   - Review reports and analytics
+### 🚆 KO-NECT
 
-## Support
+**One Network. Two Mobility Systems. One Intelligent Platform.**
 
-For questions or issues, please refer to the project documentation or contact the development team.
+*Transforming transportation operations through connected decision-making.*
 
-## License
-
-This project is developed for Kochi Metro Rail Limited (KMRL) operations management.
+</div>
