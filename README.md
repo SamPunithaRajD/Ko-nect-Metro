@@ -1,240 +1,210 @@
-# 🚆 KO-NECT | Unified Metro & Water Metro Operations Control System
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=25&duration=3000&pause=1000&color=00A6FF&center=true&vCenter=true&width=850&lines=Smarter+Urban+Mobility.;AI-Powered+Operational+Planning.;One+Unified+Control+System.;Connecting+Metro+%26+Water+Metro." alt="Animated KO-NECT introduction" />
+<img src="./assets/ko-nect-train.gif" alt="KO-NECT animated metro train banner" width="100%" />
 
-### Connecting Operations. Optimizing Mobility. Empowering Decisions.
+<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&pause=1100&color=63D9F2&center=true&vCenter=true&width=850&lines=One+Platform.+Two+Transit+Networks.;Smarter+Fleet+Planning+%7C+Connected+Operations;Metro+%2B+Water+Metro+%7C+Unified+Control" alt="Animated KO-NECT tagline" /></a>
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![AI Powered](https://img.shields.io/badge/AI-Decision_Support-00A86B?style=for-the-badge)](#-ai-powered-operational-planning)
-[![Language](https://img.shields.io/badge/Language-English%20%7C%20Malayalam-blue?style=for-the-badge)](#-multilingual-experience)
+<br/>
 
-**A unified operational decision-support platform inspired by Kochi Metro Rail and Kochi Water Metro operations.**
+<img src="https://img.shields.io/badge/PROJECT-KO--NECT-15233F?style=for-the-badge&labelColor=0B1328" alt="Project KO-NECT" />
+<img src="https://img.shields.io/badge/DOMAIN-SMART%20MOBILITY-087E8B?style=for-the-badge" alt="Smart mobility" />
+<img src="https://img.shields.io/badge/FRONTEND-REACT-149ECA?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+<img src="https://img.shields.io/badge/BUILD-VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+<img src="https://img.shields.io/badge/STYLING-TAILWIND%20CSS-0EA5A4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+
+<br/><br/>
+
+### **CONNECTING OPERATIONS · OPTIMIZING MOBILITY · EMPOWERING DECISIONS**
+
+*A unified operations and decision-support platform for Kochi Metro and Kochi Water Metro.*
 
 </div>
 
 ---
 
-## 🌆 About KO-NECT
+## 🛰️ 01 / THE BIG PICTURE
 
-Urban transportation involves thousands of interconnected decisions involving fleet availability, employee allocation, maintenance, passenger demand, and unexpected events.
+**KO-NECT** brings Metro and Water Metro operations into one coordinated workspace. It is designed to help operations teams plan fleet deployment, coordinate drivers and crew, respond to service disruptions, manage maintenance, and understand daily operational performance.
 
-**KO-NECT** is designed to bring these operational activities together into one intelligent platform.
-
-It combines AI-assisted operational planning, fleet management, workforce allocation, maintenance coordination, and analytical reporting to support smarter decision-making across metro rail and water metro operations.
-
-Rather than managing two transportation networks independently, KO-NECT provides a unified operational perspective.
-
-## ✨ Core Capabilities
-
-| Module | Capabilities |
-|---|---|
-| 🚆 Metro Operations | Train induction, fleet status and deployment |
-| 🚤 Water Metro Operations | Boat allocation, availability and scheduling |
-| 🤖 AI Planning | Constraint-based operational recommendations |
-| 👨‍✈️ Workforce Management | Driver allocation, shifts and fatigue monitoring |
-| 🗓️ Event Intelligence | Event-aware scheduling and extended services |
-| 🔧 Maintenance Management | Department assignments and repair workflows |
-| 📸 Repair Evidence | Before/after photos and repair documentation |
-| 📚 Repair History | Centralized maintenance audit records |
-| 📊 Analytics | Ridership, fleet utilization and operational KPIs |
-| 📄 Reporting | Downloadable PDF and Excel reports |
-| 🏢 Depot Simulation | Fleet failure and maintenance capacity scenarios |
-| 🌐 Multilingual | English and Malayalam |
-| 🌙 Dark Mode | Alternative operational dashboard theme |
-
-## 🧠 AI-Powered Operational Planning
-
-KO-NECT uses a constraint-based decision-support approach inspired by Operations Research principles.
-
-The planning engine considers multiple operational factors before generating recommendations.
-
-**Planning Inputs**
-- Historical passenger ridership
-- Train and boat availability
-- Maintenance schedules
-- Driver and crew availability
-- License and certificate validity
-- Weekday, weekend and holiday demand
-- Special events and expected crowd
-
-**Planning Outputs**
-- Recommended fleet deployment
-- Driver and crew allocation
-- Standby fleet requirements
-- Maintenance constraints
-- Event-based operational adjustments
-- Extended service recommendations
-
-The system also supports administrator overrides and dynamic manpower recalculation.
-
-## 🔄 Operational Workflow
-
-```mermaid
-flowchart TD
-    A["📥 Operational Data"] --> B["Fleet & Driver Validation"]
-    B --> C["🤖 AI Planning Engine"]
-    C --> D["📊 Recommended Operational Plan"]
-    D --> E{"Admin Approval"}
-    E -->|Modify| F["Admin Override"]
-    F --> G["Dynamic Fleet & Driver Reallocation"]
-    E -->|Approve| H["Approved Operational Plan"]
-    G --> H
-    H --> I["Employee Dashboards"]
-    H --> J["Depot Simulation"]
-    I --> K["Operational Execution"]
-    K --> L["Issue Reporting"]
-    L --> M["Maintenance Manager"]
-    M --> N["Department Assignment"]
-    N --> O["Repair & Photo Evidence"]
-    O --> P["Admin Verification"]
-    P --> Q["Repair History & Analytics"]
-```
-
-## 🔧 Maintenance Management System
-
-A dedicated Maintenance Manager role coordinates maintenance activities across departments.
-
-**Department Coordination**
-- Mechanical
-- Electrical
-- Civil Works
-- IT / Signalling
-- Safety
-- Housekeeping
-- Metro Technical
-- Water Metro Technical
-
-**Issue Lifecycle**
-
-`Reported → Assigned → Accepted → In Progress → Testing → Resolved → Verified → Closed`
-
-Every completed repair can include:
-- Repair description and technician details
-- Spare parts consumed
-- Before and after photographs
-- Testing results
-- Admin verification
-- Permanent repair history
-
-## 📊 Operational Intelligence
-
-KO-NECT brings operational analytics into one place.
-
-- Daily passenger ridership trends
-- Metro and Water Metro fleet utilization
-- Driver availability and shift distribution
-- Maintenance and repair trends
-- Certificate expiry monitoring
-- Department performance
-- Event-based operational impact
-
-Administrators can generate and download structured operational reports in PDF and Excel formats.
-
-## 🛠️ Technology Stack
-
-| Technology | Purpose |
-|---|---|
-| React.js | Component-based frontend |
-| Vite | Development and build tooling |
-| Tailwind CSS | UI styling and responsive layouts |
-| JavaScript / TypeScript | Application logic |
-| React Context API | Shared application state |
-| Charting Libraries | Analytics and data visualization |
-| Excel / JSON | Structured operational input data |
-| PDF / Excel Libraries | Report generation |
-
-*The implementation should be updated to reflect the exact libraries and integrations in the current repository.*
-
-## 🌐 Multilingual Experience
-
-KO-NECT supports two languages:
-
-- 🇬🇧 English
-- 🇮🇳 മലയാളം (Malayalam)
-
-The language preference extends across dashboards, operational data, event notices, schedules, alerts and downloadable reports.
-
-## 👥 Role-Based Dashboards
-
-**1. Admin – Operations Control Center**
-- Central operational monitoring
-- AI planning and approval
-- Fleet and driver management
-- Event scheduling
-- Maintenance oversight
-- Analytics and reporting
-
-**2. Metro Employee**
-- Train assignments
-- Shift schedules
-- Operational instructions
-- Special event notices
-- Issue reporting
-
-**3. Water Metro Employee**
-- Boat assignments
-- Captain and crew schedules
-- Operational instructions
-- Event-based service updates
-- Issue reporting
-
-**4. Maintenance Manager**
-- Department coordination
-- Repair work queue
-- Maintenance status updates
-- Repair evidence uploads
-- Repair history and reports
-
-## 🎯 Project Objectives
-
-- Reduce manual operational planning effort.
-- Improve fleet and workforce utilization.
-- Coordinate metro and water metro operations.
-- Incorporate special events into service planning.
-- Improve maintenance traceability.
-- Support transparent, data-driven decisions.
-
-## 🚀 Future Scope
-
-- Real-time IoT integration with metro and boat systems.
-- Live GPS-based fleet monitoring.
-- Predictive maintenance using historical operational data.
-- Machine learning-based passenger demand forecasting.
-- Integration with enterprise maintenance management systems.
-- Automated operational data ingestion through APIs.
-
-## 🏆 Achievement
-
-🥈 **Second Prize – TECHYUGAM '26**
-
-Inter-College Project Expo  
-Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College
-
-## 👨‍💻 Project Team
-
-### METRO BOYS
-
-| Team Member |
-|---|
-| Sam Punitha Raj D |
-| Vishnu Vardan E |
-| Srivarsan JP |
-| Vidur Varshan V |
-
-**St. Joseph's College of Engineering, Chennai**
-
----
+Instead of treating fleet planning, staffing, maintenance, and service updates as isolated activities, KO-NECT connects them through a shared operational workflow.
 
 <div align="center">
 
-### 🚆 KO-NECT
+| 🚆 METRO OPERATIONS | ⛴️ WATER METRO OPERATIONS | 🧠 UNIFIED CONTROL |
+|:---:|:---:|:---:|
+| Trainset readiness and deployment | Boat readiness and deployment | One operations workspace |
+| Driver and shift coordination | Captain and crew coordination | Shared planning visibility |
+| Depot and maintenance status | Fleet and route readiness | Centralized monitoring |
 
-**One Network. Two Mobility Systems. One Intelligent Platform.**
+</div>
 
-*Transforming transportation operations through connected decision-making.*
+## ⚙️ 02 / WHAT KO-NECT BRINGS TOGETHER
+
+### 🚦 AI-Assisted Operational Planning
+
+- Generate daily fleet deployment recommendations for Metro and Water Metro.
+- Consider vehicle readiness, maintenance status, mandatory checks, and available manpower before recommending deployment.
+- Allocate drivers, captains, and crew against operational requirements and shift availability.
+- Allow administrators to review, edit, and approve the recommended plan.
+- Recalculate related allocations when an approved operational change affects fleet availability.
+
+### 📅 Event-Aware Service Planning
+
+- Include calendar events and expected crowd levels in operational planning.
+- Support increased service demand through additional deployment and manpower planning.
+- Highlight event-related instructions and service changes for relevant employees.
+- Account for pre-event, event-time, and post-event operational requirements.
+
+### 🛠️ Maintenance Coordination
+
+- Route reported issues to the Maintenance Manager for department assignment.
+- Coordinate work across Mechanical, Electrical, Civil Works, IT/Signalling, Safety, Housekeeping, Metro Technical, and Water Metro Technical teams.
+- Track repair progress from reporting and assignment through testing, verification, and closure.
+- Maintain repair notes, technician details, parts used, and before/after evidence.
+- Keep repair history available for operational review and maintenance reporting.
+
+### 📊 Reports and Operational Intelligence
+
+- Bring fleet status, daily operations, staffing, maintenance, and event impact into a reporting workspace.
+- Present operational indicators and trends for review.
+- Support report exports where enabled in the application.
+- Give administrators a consolidated view for operational decisions.
+
+### 🌐 Role-Based and Bilingual Experience
+
+- Separate operational views for administrators, Metro employees, Water Metro employees, and maintenance coordination.
+- Provide English and Malayalam language support across the application interface.
+- Include dark-mode support and a consistent dashboard experience.
+
+---
+
+## 🧩 03 / HOW THE WORKFLOW CONNECTS
+
+```mermaid
+flowchart TD
+    A[Operational Inputs] --> B[KO-NECT Planning Engine]
+    A1[Fleet Readiness] --> A
+    A2[Maintenance Status] --> A
+    A3[Driver and Crew Availability] --> A
+    A4[Events and Demand] --> A
+    B --> C[Constraint Checks and Deployment Recommendations]
+    C --> D[Admin Review and Approval]
+    D --> E[Metro Operations Dashboard]
+    D --> F[Water Metro Operations Dashboard]
+    D --> G[Employee Instructions and Updates]
+    H[Reported Issues] --> I[Maintenance Manager]
+    I --> J[Department Assignment and Repair]
+    J --> K[Evidence, Testing and Verification]
+    K --> L[Repair History and Reports]
+    L --> B
+```
+
+---
+
+## 🔄 04 / MAINTENANCE LIFECYCLE
+
+<div align="center">
+
+`REPORTED` → `ASSIGNED` → `ACCEPTED` → `IN PROGRESS` → `TESTING` → `RESOLVED` → `VERIFIED` → `CLOSED`
+
+</div>
+
+Each stage gives the responsible team a clearer view of the issue, its owner, repair progress, evidence, and verification status. Completed work can also contribute to the centralized repair history.
+
+---
+
+## 🖥️ 05 / PLATFORM MODULES
+
+| Module | Purpose |
+|---|---|
+| **Admin Control Center** | Central operational overview, approvals, planning, and monitoring |
+| **AI Planning** | Fleet deployment recommendations and operational re-planning |
+| **Metro Employee Dashboard** | Train-related assignments, shifts, and service instructions |
+| **Water Metro Employee Dashboard** | Boat-related assignments, crew coordination, and service instructions |
+| **Maintenance Manager** | Department coordination, work queue, repair evidence, and history |
+| **Driver and Crew Management** | Workforce availability, shift planning, and allocation visibility |
+| **Reports Center** | Operational summaries, maintenance insights, and downloadable reports |
+| **Analytics** | Fleet, workforce, maintenance, and service-performance indicators |
+
+---
+
+## 🧰 06 / TECHNOLOGY
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,ts,git,github" alt="Technology icons" />
+
+</div>
+
+| Layer | Technology |
+|---|---|
+| Frontend | React 18 + TypeScript |
+| Development and build | Vite 5 |
+| Styling | Tailwind CSS 3 |
+| Backend services | Supabase |
+| Data visualization | Recharts |
+| Icons | Lucide React |
+| Source control | Git and GitHub |
+
+---
+
+## 🚀 07 / GETTING STARTED
+
+Clone the repository and install the project dependencies:
+
+```bash
+git clone https://github.com/SamPunithaRajD/Ko-nect-Metro.git
+cd Ko-nect-Metro
+npm install
+npm run dev
+```
+
+Use the local URL printed by Vite to open the application.
+
+---
+
+## 🎯 08 / PROJECT OBJECTIVE
+
+KO-NECT explores how a connected digital platform can improve the coordination of two public-transport networks. Its goal is to make operational decisions more visible, structured, and responsive by connecting fleet readiness, workforce allocation, maintenance activity, and changing passenger demand.
+
+**The focus is not only on displaying information — it is on helping teams act on it.**
+
+---
+
+## 🏆 09 / RECOGNITION
+
+<div align="center">
+
+### 🥈 SECOND PRIZE — TECHYUGAM '26
+
+Inter-College Project Expo  ·  Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College
+
+</div>
+
+---
+
+## 👨‍💻 10 / THE TEAM — METRO BOYS
+
+| Name | Role |
+|---|---|
+| **Sam Punitha Raj D** | Team Member |
+| **Vishnu Vardan E** | Team Member |
+| **Srivarsan JP** | Team Member |
+| **Vidur Varshan V** | Team Member |
+
+**Institution:** St. Joseph's College of Engineering, Chennai  
+**Project:** KO-NECT — KMRL Unified Operations Control System
+
+---
+
+## 🌐 11 / VISION
+
+A more connected transit ecosystem where operational data, people, vehicles, and decisions work together.
+
+<div align="center">
+
+### **ONE NETWORK OF INFORMATION. TWO MODES OF MOBILITY. ONE CONNECTED EXPERIENCE.**
+
+<img src="https://img.shields.io/badge/KO--NECT-SMARTER%20MOBILITY-11213B?style=for-the-badge" alt="KO-NECT smarter mobility" />
 
 </div>
